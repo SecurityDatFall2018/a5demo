@@ -24,7 +24,6 @@ public class ApplicationConfig extends Application {
    * out calling this method in getClasses().
    */
   private void addRestResourceClasses(Set<Class<?>> resources) {
-    resources.add(rest.DemoResource.class);
   }
 
 }
